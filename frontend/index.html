@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Campus Chat</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="profile">
+        <div class="avatar">J</div>
+        <div class="name">Jane Doe</div>
+        <div class="role">Student</div>
+      </div>
+      <nav class="menu">
+        <a href="#" class="active">General Chat</a>
+        <a href="#">College Group</a>
+        <a href="#">Notes</a>
+        <a href="#">Ask/Answer</a>
+        <a href="#">Notifications</a>
+        <a href="#">Profile</a>
+      </nav>
+      <div class="logout">Logout</div>
+    </aside>
+
+    <!-- Main Chat Section -->
+    <main class="chat-area">
+      <header class="chat-header">General Chat</header>
+      <div class="chat-subtitle">Chat with everyone in your campus</div>
+      
+      <div class="messages">
+        <div class="message left">
+          <div class="sender">Alex Johnson</div>
+          <div class="bubble">Hey everyone! Has anyone started the programming assignment yet?</div>
+          <div class="time">10:18</div>
+        </div>
+        <div class="message left">
+          <div class="sender">Jamie Smith</div>
+          <div class="bubble">I just started looking at it. Seems challenging but interesting!</div>
+          <div class="time">11:18</div>
+        </div>
+        <div class="message right">
+          <div class="bubble">I can help if anyone gets stuck. Just finished it last night.</div>
+          <div class="time">11:48</div>
+        </div>
+        <div class="message left">
+          <div class="sender">Alex Johnson</div>
+          <div class="bubble">Thanks! I might take you up on that offer. The recursion part is confusing me.</div>
+          <div class="time">12:03</div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Users Online -->
+    <aside class="online-users">
+      <div class="title">Online Users • 5</div>
+      <ul>
+        <li><span class="dot"></span> Alex Johnson</li>
+        <li><span class="dot"></span> Jamie Smith</li>
+        <li><span class="dot"></span> Sam Wilson</li>
+        <li><span class="dot"></span> Taylor Brown</li>
+        <li><span class="dot"></span> Jane Doe</li>
+      </ul>
+    </aside>
+  </div>
+</body>
+</html>
